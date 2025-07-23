@@ -1,7 +1,9 @@
+import Header from "@/components/Header";
+
 export function PortfolioView(){
     return(
         <div>
-            ポートフォリオ
+            <Header/>
         </div>
     )
 }
