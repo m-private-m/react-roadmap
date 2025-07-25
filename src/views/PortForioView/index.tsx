@@ -4,12 +4,14 @@ import Typography from "@mui/material/Typography";
 import Link from "next/link";
 
 export function PortfolioView(){
-    const onClick=()=>{
-
-    }
+    const items=[
+        {label:'About',onClick:()=>{}},
+        {label:'Portfolio',onClick:()=>{}},
+        {label:'Social',onClick:()=>{}}
+    ]
     return(
         <div>
-            <Header/>
+            <Header title="XXX"items={items}/>
             <Typography variant="h2" align="center">
                 Welcome to My Portfolio
             </Typography>
