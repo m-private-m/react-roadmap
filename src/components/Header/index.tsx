@@ -27,7 +27,7 @@ items
             {title}
           </Typography>
           {items.map((item)=>
-            <Button color="inherit" onClick={item.onClick()}>{item.label}</Button>
+            <Button color="inherit" onClick={()=>item.onClick}>{item.label}</Button>
           )}
         </Toolbar>
       </AppBar>
