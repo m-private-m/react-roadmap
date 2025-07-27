@@ -6,17 +6,17 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 
 type Item={
- label:string,
-    onClick:()=>void
+  label:string,
+  onClick:()=>void
 }
 type Props={
   title:string,
-   items:Item[]
+  items:Item[]
 }
 
 export default function Header({
   title,
-items
+  items
 }:Props) {
 
   return (
