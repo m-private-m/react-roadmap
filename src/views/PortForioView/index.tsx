@@ -1,3 +1,4 @@
+import Fotter from "@/components/Footer";
 import Header from "@/components/Header";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
@@ -21,6 +22,7 @@ export function PortfolioView(){
             <Link href={"https://github.com/dashboard"}>
                 <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" width="25%"/>
             </Link>
+            <Fotter/>
         </div>
     )
 }
