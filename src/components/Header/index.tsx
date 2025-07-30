@@ -27,7 +27,7 @@ export default function Header({
             {title}
           </Typography>
           {items.map((item)=>
-            <Button color="inherit" onClick={()=>item.onClick}>{item.label}</Button>
+            <Button color="inherit" onClick={()=>item.onClick} key={item.label}>{item.label}</Button>
           )}
         </Toolbar>
       </AppBar>
