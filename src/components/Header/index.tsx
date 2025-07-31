@@ -1,3 +1,4 @@
+'use client';
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -27,7 +28,7 @@ export default function Header({
             {title}
           </Typography>
           {items.map((item)=>
-            <Button color="inherit" onClick={()=>item.onClick} key={item.label}>{item.label}</Button>
+            <Button color="inherit" onClick={item.onClick} key={item.label}>{item.label}</Button>
           )}
         </Toolbar>
       </AppBar>

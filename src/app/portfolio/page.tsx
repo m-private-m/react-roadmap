@@ -1,3 +1,4 @@
+'use client';
 import { PortfolioView } from "@/views/PortForioView";
 import React from "react";
 
