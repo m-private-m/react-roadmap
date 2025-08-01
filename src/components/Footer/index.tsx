@@ -4,7 +4,7 @@ export default function Fotter(){
 
     return(
         <div className={styles.fotter}>
-            ふったーです
+            Created by <a className={styles.highlight} href='./portfolio'>@m-private-m</a> © 2025
         </div>
     )
 }
