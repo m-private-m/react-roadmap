@@ -23,6 +23,10 @@ export function PortfolioView(){
             <Link href={"https://github.com/dashboard"}>
                 <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" width="25%"/>
             </Link>
+            <Box>
+                Reactをを使用して約1年のビギナーです。
+                さらにフロントエンド開発のスキルアップを目指しています
+            </Box>
             <Fotter/>
         </div>
     )
